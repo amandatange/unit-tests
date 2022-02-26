@@ -11,6 +11,7 @@
     "@babel/core": "^7.17.5",
     "@babel/preset-env": "^7.6.3",
     "babel-jest": "^24.9.0",
-    "jest": "^27.5.1"
+    "jest": "^27.5.1",
+    "jest-watcher": "^27.5.1"
   }
 }

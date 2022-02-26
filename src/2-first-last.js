@@ -1,3 +1,11 @@
 export const firstLast = (items) => {
-  return `First: ${items[0]}, Last: ${items[1]}`
+  let message = '';
+  if (items.length === 0) {
+    message = "No items!"
+  } else if (items.length === 1) {
+    message = `Only item: ${items}`
+  } else {
+    message = `First: ${items[0]}, Last: ${items.at(-1)}`
+  }
+  return message
 }
